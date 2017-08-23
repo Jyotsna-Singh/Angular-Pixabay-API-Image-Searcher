@@ -1,6 +1,36 @@
-# PixabayAPIImageSearch
+# Pixabay-API-Image-Search
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.0.
+
+A simple image search application that implements Pixabay's public API. Users search for images matching a keyword and the application returns a gallery of those images that link back to Pixabay. All images in the application are provided by Pixabay. The application implements Angular 4's Http class, Angular Material, and Masonry.js.
+<p align="center">
+  <br><br>
+  <img src="https://github.com/Jyotsna-Singh/Angular-Pixabay-API-Image-Searcher/blob/master/src/assets/img/Demo.gif" />
+</p>
+
+
+## Usage
+
+In `src\environments\environment.ts`, enter your pixabay API key in the environment constant.
+
+    export const environment = {
+    production: false,
+    PIXABAY_API_KEY: 'YOUR_API_KEY_HERE',
+    PIXABAY_API_URL: 'https://pixabay.com/api/?key=',
+    };
+
+## Clone/Download
+
+`git clone https://github.com/Jyotsna-Singh/Angular-Pixabay-API-Image-Searcher.git`
+
+## License
+MIT License
+
+<p align="center">
+  <br><br>
+  <img src="https://github.com/Jyotsna-Singh/Jyotsna-Singh/blob/master/assets/img/angular.png" width="300px" height="auto" />
+</p>
+
 
 ## Development server
 
